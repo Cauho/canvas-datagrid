@@ -11,7 +11,7 @@ import {
 } from './util.js';
 
 export default function () {
-    it('Fills the last visible column and disables its outer resize edge.', function () {
+  it('Fills the last visible column and disables its outer resize edge.', function () {
     var grid = g({
       test: this.test,
       data: smallData(),
