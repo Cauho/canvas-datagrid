@@ -77,7 +77,6 @@ export default function () {
     doAssert(grid.scrollWidth > 0, 'Overflowing grid remains scrollable');
   });
 
-
   it('Resize a column from a column header.', function (done) {
     var grid = g({
       test: this.test,
